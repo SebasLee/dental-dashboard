@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+nav {
+    z-index: 2;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    float: left;
+}
+
+.magnify svg {
+    border-radius: 5px;
+    float: left;
+    background-color: #80B279;
+    margin-left: 30px;
+    margin-top: 11px;
+    padding: 10px;
+}
+
+.search {
+    margin-top: 14px;
+    float: left;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+    height: 40px;
+}
+
+.search input {
+    margin-top: 1px;
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+.links {
+    float: left;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.links a {
+    padding-right: 15px;
+    color: #999c9e;
+}
+
+.right-side {
+    float: right;
+}
+
+.new-patient {
+    margin-top: 12px;
+    float: left;
+    color: white;
+    background-color: #80B279;
+    padding: 10px 16px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+}
+
+.notifications {
+    float: left;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.notifications svg {
+    padding-right: 15px;
+}
+
+.user {
+    float: left;
+    margin-left: 80px;
+    margin-top: 16px;
+}
+
+.user h1 {
+    float: left;
+    font-size: 17px;
+    padding-right: 15px;
+    margin-top: 3px;
+}
+
+.logout { 
+    margin-right: 30px;
+    margin-top: 22px;
+    float: right;
+}
+
+.logout svg {
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+.logout a {
+    color: #999c9e ;
+}
+
+@media only screen (max-width: 2000px) {
+    .links button {
+        display: revert;
+    }
+}
